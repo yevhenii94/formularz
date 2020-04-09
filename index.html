@@ -8,7 +8,7 @@
 <body>
     <h2>Wypełnij formularz i zapisz się na szkolenie</h2>
 
-    <form action="https://formspree.io/mwknqlqw/jeka081994@rambler.ru" method="POST"> 
+    <form action="https://formspree.io/mwknqlqw" method="POST"> 
 
         <label for="imie">Imię:</label><br />
         <input type="text" name="imie" id="imie"><br />
@@ -23,7 +23,7 @@
         <input type="number" name="quantity" id="telefon"><br />
 
         <label for="miasto">Wybierz miasto:</label><br />
-        <select name="select">
+        <select name="select" id="miasto">
             <option value="value1">Kraków</option>
             <option value="value2">Warszawa</option>
             <option value="value3">Gdańsk</option>
@@ -31,12 +31,12 @@
         <br />
 
         <label for="płeć">Płeć:</label><br />
-        <input type="radio" name="gender">Mężczyzna
+        <input type="radio" name="gender" id="płeć">Mężczyzna
         <input type="radio" name="gender">Kobieta<br />
         <br />
 
         <label for="zgoda">Zgoda na przetwarzanie danych osobowych</label><br />
-        <input type="checkbox" name="agreement" id="zgoda"<br />
+        <input type="checkbox" name="agreement" id="zgoda"><br />
         <br />
 
         <label for="wiadomość">Wiadomość</label><br />
